@@ -85,6 +85,7 @@ if (localStorage.userLanguage) {
     language = defLanguage;
   else
     language = 'ru';
+  localStorage.userLanguage = language;
 }
 
 I18n.setLocale(language);

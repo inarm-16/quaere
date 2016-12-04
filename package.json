@@ -1,8 +1,8 @@
 {
-  "name": "inarm_site",
-  "version": "0.0.16",
-  "description": "Seed project for React apps using ES6 & webpack.",
-  "repository": "https://github.com/badsyntax/react-seed",
+  "name": "site",
+  "version": "0.0.17",
+  "description": "site of quaere, erasmus+ project",
+  "repository": "/",
   "license": "MIT",
   "config": {
     "buildDir": "./build",
