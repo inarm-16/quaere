@@ -21,8 +21,8 @@ ReactDOM.render(
   <Router history={browserHistory}>
     <Route path={URL.main} component={Page}>
       <IndexRoute component={GeneralInformation}/>
-      <Route path={URL.generalInformation} title="GeneralInf" component={GeneralInformation}/>
-      <Route path={URL.partners} title="Partners" component={Partners}/>
+      <Route path={URL.generalInformation} component={GeneralInformation}/>
+      <Route path={URL.partners} component={Partners}/>
       <Route path={URL.stagesOfExecution} component={Stages}/>
       <Route path={URL.usefulLinks} component={Links}/>
       <Route path={URL.workGroup} component={WorkGroup}/>
