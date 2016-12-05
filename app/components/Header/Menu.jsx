@@ -11,7 +11,7 @@ export default class Menu extends React.Component {
 
   render() {
     return (
-      <Nav bsStyle="tabs">
+      <Nav bsStyle="tabs" className={styles.topmenu}>
         <LinkContainer to={URL.generalInformation}>
           <NavItem eventKey={1}><Translate value="menu.general_information"/></NavItem>
         </LinkContainer>

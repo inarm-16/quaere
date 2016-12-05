@@ -6,11 +6,11 @@ import {Grid, Row} from 'react-bootstrap';
 export default class Page extends React.Component {
   render() {
     return (
-      <Grid>
+      <Grid bsClass={styles.body_container}>
         <Header/>
-        <Row className={styles.page_content}>
+        <Grid className={styles.page_container}>
           {this.props.children}
-        </Row>
+        </Grid>
       </Grid>
     );
   }

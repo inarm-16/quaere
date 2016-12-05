@@ -1,5 +1,59 @@
 @import "toolkit";
 
+.header {
+  background: #ebebe9; /* Для старых браузров */
+  background: linear-gradient(to bottom, #fff, #ebebe9);
+  width: 1020px !important;
+}
+
 .languages {
-  margin-top: 5vh;
+  margin-bottom: -3%;
+}
+
+.title_row {
+  margin-bottom: 2%;
+}
+
+.site_title {
+  text-align: center;
+}
+
+.topmenu {
+  background: #1d5989; /* Для старых браузров */
+  background: linear-gradient(to bottom, #1d5989, #00316e);
+  border-bottom: 1px solid #dddddd;
+}
+
+.topmenu li {
+  float: left !important;
+}
+
+.topmenu li:active {
+  margin-top: -2px;
+  margin-bottom: -1px;
+}
+
+.topmenu a {
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+  color: #f6f6f6;
+  padding: 11px 16px 10px 16px !important;
+}
+
+.topmenu a:hover {
+  color: #464646;
+}
+
+.topmenu a:active {
+  color: #246ea6;
+  background: #ffffff !important;
+  border-left: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  padding: 12px 15px 11px 15px !important;
+}
+
+.logos {
+  margin-top: 4%;
 }

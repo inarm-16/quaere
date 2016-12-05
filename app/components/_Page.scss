@@ -1,6 +1,27 @@
 @import "toolkit";
 
-.page_content {
-  margin-top: 2%;
-  margin-bottom: 3%;
+.body_container {
+  margin-right: 0;
+  margin-left: 0;
+  background: #ebebe9;
+  min-height: 100vh;
+  padding-bottom: 15px;
 }
+
+.page_container {
+  width: 1020px !important;
+  background: #ffffff;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+a {
+  outline: none !important;
+}
+
+

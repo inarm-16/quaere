@@ -13,9 +13,9 @@ export default class Languages extends React.Component {
   render() {
     return (
       <ButtonToolbar bsClass={styles.languages}>
-        <Button onClick={this.switchLanguage.bind(this, "ua")}>UA</Button>
-        <Button onClick={this.switchLanguage.bind(this, "ru")}>RU</Button>
-        <Button onClick={this.switchLanguage.bind(this, "en")}>EN</Button>
+        <Button bsSize="small" onClick={this.switchLanguage.bind(this, "ua")}>UA</Button>
+        <Button bsSize="small" onClick={this.switchLanguage.bind(this, "ru")}>RU</Button>
+        <Button bsSize="small" onClick={this.switchLanguage.bind(this, "en")}>EN</Button>
       </ButtonToolbar>
     );
   }

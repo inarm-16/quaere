@@ -2,7 +2,7 @@ let GeneralInformation = {
   ua: {
     sections: [
       {
-        title: "Загальні відомості про проект",
+        title: "Загальні відомості про проект:",
         paragraphs: [
           "У Державному ВНЗ «Національний гірничий університет» розпочато роботу над міжнародним проектом " +
           "який реалізується в рамках грантової програми  Erasmus plus: «Система забезпечення якості освіти в Україні: " +
@@ -29,7 +29,7 @@ let GeneralInformation = {
           "- запровадження механізму внутрішньої оцінки якості як невід’ємної складової функціонування університетів."]
       },
       {
-        title: "Останні новини проекту",
+        title: "Останні новини проекту:",
         paragraphs: [
           "4-6 квітня 2016 року у Львівському національному університеті імені Івана Франка відбулася перша " +
           "зустріч  в рамках проекту: «Система забезпечення якості освіти в Україні: розвиток на основі європейських " +
@@ -50,7 +50,7 @@ let GeneralInformation = {
   ru: {
     sections: [
       {
-        title: "Общие сведения о проекте",
+        title: "Общие сведения о проекте:",
         paragraphs: [
           "В Государственном ВУЗ «Национальный горный университет» начата работа над международным проектом который " +
           "реализуется в рамках грантовой программы Erasmus plus: «Система обеспечения качества образования в Украине: " +
@@ -62,7 +62,7 @@ let GeneralInformation = {
   en: {
     sections: [
       {
-        title: "General information about the project",
+        title: "General information about the project:",
         paragraphs: [
           "In the «National Mining University» started work on an international project implemented under " +
           "the grant program Erasmus plus: «The quality assurance system of education in Ukraine: development " +

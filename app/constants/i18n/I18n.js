@@ -5,13 +5,12 @@ import Partners from './Partners';
 
 I18n.setTranslations({
   ua: {
-    application: {
-      title: ""
-    },
+    site_name: 'Система забезпечення якості освіти в Україні',
     logos: {
       pzks: "Кафедра програмного забезпечення комп'ютерних систем",
       nmu: 'Національний гірничий університет',
-      erasmus: 'Erasmus+'
+      erasmus: 'Erasmus+',
+      quaere: 'QUAERE'
     },
     menu: {
       general_information: 'Загальна інформація',
@@ -28,13 +27,12 @@ I18n.setTranslations({
     }
   },
   ru: {
-    application: {
-      title: ""
-    },
+    site_name: 'Система обеспечения качества образования в Украине',
     logos: {
       pzks: 'Кафедра программного обеспечения компьютерных систем',
       nmu: 'Национальный горный университет',
-      erasmus: 'Erasmus+'
+      erasmus: 'Erasmus+',
+      quaere: 'QUAERE'
     },
     menu: {
       general_information: 'Общая информация',
@@ -51,13 +49,12 @@ I18n.setTranslations({
     }
   },
   en: {
-    application: {
-      title: ""
-    },
+    site_name: 'The quality assurance system of education in Ukraine',
     logos: {
       pzks: 'Department of Software Engineering',
       nmu: 'National Mining University',
-      erasmus: 'Erasmus+'
+      erasmus: 'Erasmus+',
+      quaere: 'QUAERE'
     },
     menu: {
       general_information: 'General information',

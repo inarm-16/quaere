@@ -9,8 +9,7 @@ let UsefulLinks = {
     development_of_quality: "Розвиток системи забезпечення якості вищої освіти в Україні",
     presentation_of_NMU: "National Mining University: QA experience",
     NMU_structure_and_functionality: "NMU: Structure and Functionality of Internal QA",
-    article_education_QA: "ЗАБЕЗПЕЧЕННЯ ЄВРОПЕЙСЬКИХ СТАНДАРТІВ ЗАБЕЗПЕЧЕННЯ ЯКОСТІ ОСВІТИ (ESG) " +
-      "ЯК ОСНОВА ДЛЯ ПІДВИЩЕННЯ ЯКОСТІ ОСВІТИ В УКРАЇНІ",
+    article_education_QA: "ЗАБЕЗПЕЧЕННЯ ЄВРОПЕЙСЬКИХ СТАНДАРТІВ ЗАБЕЗПЕЧЕННЯ ЯКОСТІ ОСВІТИ (ESG)",
     lviv_2016: "Lviv Kick-Off April 2016",
     wp8: "Meeting on WP8",
     QUAERE_agenda: "QUAERE Kick-off Agenda",
@@ -26,8 +25,7 @@ let UsefulLinks = {
     development_of_quality: "Развитие системы обеспечения качества высшего образования в Украине",
     presentation_of_NMU: "National Mining University: QA experience",
     NMU_structure_and_functionality: "NMU: Structure and Functionality of Internal QA",
-    article_education_QA: "ОБЕСПЕЧЕНИЕ ЕВРОПЕЙСКИХ СТАНДАРТОВ ОБЕСПЕЧЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ (ESG) " +
-      "КАК ОСНОВА ДЛЯ ПОВЫШЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ В УКРАИНЕ",
+    article_education_QA: "ОБЕСПЕЧЕНИЕ ЕВРОПЕЙСКИХ СТАНДАРТОВ ОБЕСПЕЧЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ (ESG)",
     lviv_2016: "Lviv Kick-Off April 2016",
     wp8: "Meeting on WP8",
     QUAERE_agenda: "QUAERE Kick-off Agenda",
@@ -43,8 +41,7 @@ let UsefulLinks = {
     development_of_quality: "Development of quality assurance in Ukraine",
     presentation_of_NMU: "National Mining University: QA experience",
     NMU_structure_and_functionality: "NMU: Structure and Functionality of Internal QA",
-    article_education_QA: "ENSURING OF EUROPEAN QUALITY ASSURANCE STANDARDS (ESG) AS " +
-      "THE BASIS FOR IMPROVING THE QUALITY OF EDUCATION IN UKRAINE",
+    article_education_QA: "ENSURING OF EUROPEAN QUALITY ASSURANCE STANDARDS (ESG)",
     lviv_2016: "Lviv Kick-Off April 2016",
     wp8: "Meeting on WP8",
     QUAERE_agenda: "QUAERE Kick-off Agenda",
