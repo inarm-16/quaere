@@ -47,27 +47,49 @@ let GeneralInformation = {
     ]
 
   },
-  ru: {
-    sections: [
-      {
-        title: "Общие сведения о проекте:",
-        paragraphs: [
-          "В Государственном ВУЗ «Национальный горный университет» начата работа над международным проектом который " +
-          "реализуется в рамках грантовой программы Erasmus plus: «Система обеспечения качества образования в Украине: " +
-          "развитие на основе европейских стандартов и рекомендаций (QUAERE)»"
-        ]
-      }
-    ]
-  },
   en: {
     sections: [
       {
-        title: "General information about the project:",
+        title: "General information on project:",
         paragraphs: [
-          "In the «National Mining University» started work on an international project implemented under " +
-          "the grant program Erasmus plus: «The quality assurance system of education in Ukraine: development " +
-          "based on ESG (QUAERE)»"
-        ]
+          "The State «National Mining University» started to work on an international project which is being " +
+          "implemented under the grant program Erasmus plus: «The quality assurance system of education in Ukraine: " +
+          "development based on ESG (QUAERE)»",
+
+          "The project involves leading universities of Ukraine, Poland, Netherlands, Germany, Lithuania, Greece and " +
+          "German independent agency of external evaluation and accreditation (ASIIN), Central European Network of " +
+          "quality assurance agencies (CEENQA), State educational institution «Training center for quality education», " +
+          "Ukrainian Association of the student government and the Ministry of education and Science of Ukraine.",
+
+          "The project aims to support the reform and development of quality assurance in higher education of Ukraine. " +
+          "The project will develop tools for the sustainable functioning of internal and external quality assurance; " +
+          "stimulate greater involvement of students in the processes of self-awareness in universities; " +
+          "implementation of mechanism for introspection as an integral part of the university’s functioning.",
+          "The project duration - 2 years. The budget is 717 thousands euro."]
+      },
+      {
+        title: "The main objectives of the project:",
+        paragraphs: [
+          "- Improvement of existing internal and external quality control of education in Ukraine;\n" +
+          "- Potential growth of universities in Ukraine by infrastructure building of quality assessment of higher " +
+          "education, professional development of the university staff;\n" +
+          "- Encouraging students to participate in the process of introspection in the universities;\n" +
+          "- Implementation of the mechanism of internal quality assessment as an integral part of the functioning of universities."]
+      },
+      {
+        title: "The latest news of the project:",
+        paragraphs: [
+          "4-6 April 2016 The first meeting was held by Lviv University under the project: " +
+          "«Quality Assurance System in Ukraine: Development on the Base of ENQA Standards and Guidelines». ",
+
+          "The meeting was attended by representatives from local and foreign universities, representatives of " +
+          "public organizations, the Ministry of Education and Science of Ukraine and representatives of the " +
+          "National Erasmus office in Ukraine.",
+
+          "During the meeting the following main issues were discussed: the concept of assessing the quality of " +
+          "education in Ukraine, achievements and prospects in this direction; approval of the project work plan for " +
+          "the next two years; content and organizational structure of the project; the formation of working groups, " +
+          "and so on."]
       }
     ]
   }

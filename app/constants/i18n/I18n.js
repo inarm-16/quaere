@@ -2,6 +2,7 @@ let I18n = require('react-i18nify').I18n;
 import GeneralInformation from './GeneralInformation';
 import UsefulLinks from './UsefulLinks';
 import Partners from './Partners';
+import WorkingGroup from './WorkingGroup';
 
 I18n.setTranslations({
   ua: {
@@ -23,29 +24,8 @@ I18n.setTranslations({
     pages: {
       generalInformation: GeneralInformation.ua,
       links: UsefulLinks.ua,
-      partners: Partners.ua
-    }
-  },
-  ru: {
-    site_name: 'Система обеспечения качества образования в Украине',
-    logos: {
-      pzks: 'Кафедра программного обеспечения компьютерных систем',
-      nmu: 'Национальный горный университет',
-      erasmus: 'Erasmus+',
-      quaere: 'QUAERE'
-    },
-    menu: {
-      general_information: 'Общая информация',
-      partners: 'Партнеры проекта',
-      stages: 'Эапы выполнения',
-      useful_links: 'Полезные ссылки',
-      work_group: 'Состав рабочей группы от НГУ',
-      nmu_in_project: 'НГУ в проекте'
-    },
-    pages: {
-      generalInformation: GeneralInformation.ru,
-      links: UsefulLinks.ru,
-      partners: Partners.ru
+      partners: Partners.ua,
+      workingGroup: WorkingGroup.ua
     }
   },
   en: {
@@ -67,7 +47,8 @@ I18n.setTranslations({
     pages: {
       generalInformation: GeneralInformation.en,
       links: UsefulLinks.en,
-      partners: Partners.en
+      partners: Partners.en,
+      workingGroup: WorkingGroup.en
     }
   }
 });
@@ -78,10 +59,10 @@ if (localStorage.userLanguage) {
   language = localStorage.userLanguage;
 } else {
   let defLanguage = navigator.language;
-  if (defLanguage === 'ua' || defLanguage === 'ru' || defLanguage === 'en')
+  if (defLanguage === 'ua' || defLanguage === 'en')
     language = defLanguage;
   else
-    language = 'ru';
+    language = 'ua';
   localStorage.userLanguage = language;
 }
 

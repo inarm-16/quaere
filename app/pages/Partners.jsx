@@ -8,7 +8,7 @@ import DocumentTitle from 'react-document-title';
 export default class Partners extends React.Component {
   render() {
     let partners = ProjectPartners.map(p =>
-      <p>
+      <p key={p.name}>
         <Button bsStyle="link" target="_blank" href={p.link}>
           <Translate value={p.name}/>
         </Button>

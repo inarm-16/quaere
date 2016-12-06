@@ -15,22 +15,6 @@ let UsefulLinks = {
     QUAERE_agenda: "QUAERE Kick-off Agenda",
     sa_2016: "SA2016_QUAERE"
   },
-  ru: {
-    general: {
-      download: "Загрузить"
-    },
-    law_of_education: "Закон Украины о высшем образовании",
-    standards_and_recommendations: "Стандарты и рекомендации по обеспечению качества в Европейском " +
-      "пространстве высшего образования (ESG)",
-    development_of_quality: "Развитие системы обеспечения качества высшего образования в Украине",
-    presentation_of_NMU: "National Mining University: QA experience",
-    NMU_structure_and_functionality: "NMU: Structure and Functionality of Internal QA",
-    article_education_QA: "ОБЕСПЕЧЕНИЕ ЕВРОПЕЙСКИХ СТАНДАРТОВ ОБЕСПЕЧЕНИЯ КАЧЕСТВА ОБРАЗОВАНИЯ (ESG)",
-    lviv_2016: "Lviv Kick-Off April 2016",
-    wp8: "Meeting on WP8",
-    QUAERE_agenda: "QUAERE Kick-off Agenda",
-    sa_2016: "SA2016_QUAERE"
-  },
   en: {
     general: {
       download: "Download"

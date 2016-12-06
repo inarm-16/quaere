@@ -5,17 +5,20 @@ import {ButtonToolbar, Button} from 'react-bootstrap';
 
 export default class Languages extends React.Component {
 
-  switchLanguage(lang) {
+  state = {language: localStorage.userLanguage};
+
+  switchLanguage = (lang) => {
     localStorage.userLanguage = lang;
+    this.setState({language: lang});
     I18n.setLocale(lang);
   };
 
   render() {
+    let lang = this.state.language;
     return (
       <ButtonToolbar bsClass={styles.languages}>
-        <Button bsSize="small" onClick={this.switchLanguage.bind(this, "ua")}>UA</Button>
-        <Button bsSize="small" onClick={this.switchLanguage.bind(this, "ru")}>RU</Button>
-        <Button bsSize="small" onClick={this.switchLanguage.bind(this, "en")}>EN</Button>
+        <Button bsSize="small" active={lang === 'ua'} onClick={this.switchLanguage.bind(this, "ua")}>UA</Button>
+        <Button bsSize="small" active={lang === 'en'} onClick={this.switchLanguage.bind(this, "en")}>EN</Button>
       </ButtonToolbar>
     );
   }

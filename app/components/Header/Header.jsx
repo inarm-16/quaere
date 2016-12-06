@@ -11,7 +11,7 @@ export default class Header extends React.Component {
     return (
       <Grid className={styles.header}>
         <Row>
-          <Col mdOffset={1} md={3}>
+          <Col mdOffset={1} md={3} sm={3}>
             <Thumbnail href="https://ec.europa.eu/programmes/erasmus-plus/node_en"
                        title={I18n.t("logos.erasmus")}
                        alt={I18n.t("logos.erasmus")}
@@ -19,13 +19,14 @@ export default class Header extends React.Component {
                        className={styles.logos}
                        src={require('../../images/logos/erasmus_+.jpg')}/>
           </Col>
-          <Col md={2}>
-            <Thumbnail title={I18n.t("logos.quaere")}
+          <Col md={2} sm={3}>
+            <Thumbnail href="#"
+                       title={I18n.t("logos.quaere")}
                        alt={I18n.t("logos.quaere")}
                        className={styles.logos}
                        src={require('../../images/logos/quaere.png')}/>
           </Col>
-          <Col md={2}>
+          <Col md={2} sm={3}>
             <Thumbnail href="http://www.nmu.org.ua/"
                        title={I18n.t("logos.nmu")}
                        alt={I18n.t("logos.nmu")}
@@ -33,7 +34,7 @@ export default class Header extends React.Component {
                        className={styles.logos}
                        src={require('../../images/logos/nmu.png')}/>
           </Col>
-          <Col md={3}>
+          <Col md={3} sm={3}>
             <Thumbnail href="http://www.programmer.dp.ua/"
                        title={I18n.t("logos.pzks")}
                        alt={I18n.t("logos.pzks")}
@@ -43,10 +44,10 @@ export default class Header extends React.Component {
           </Col>
         </Row>
         <Row className={styles.title_row}>
-          <Col md={10}>
+          <Col md={10} sm={9}>
             <h2 className={styles.site_title}><Translate value="site_name"/></h2>
           </Col>
-          <Col md={2}>
+          <Col md={2} sm={3}>
             <Languages/>
           </Col>
         </Row>

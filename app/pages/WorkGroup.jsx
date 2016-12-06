@@ -1,7 +1,8 @@
 import React from 'react';
-import {Row, Col, Thumbnail} from 'react-bootstrap';
+import {Row, Col} from 'react-bootstrap';
 import I18n from '../constants/i18n/I18n';
 import DocumentTitle from 'react-document-title';
+import Photo from '../components/WorkGroup/Photo';
 
 export default class WorkGroup extends React.Component {
   render() {
@@ -9,30 +10,25 @@ export default class WorkGroup extends React.Component {
       <DocumentTitle title={I18n.t("menu.work_group")}>
         <div>
           <Row>
-            <Col md={3} sm={6}>
-              <Thumbnail alt="Удовик Ірина Михайлівна" src={require("../images/photos/Udovik.jpg")}>
-                <h3>Удовик Ірина Михайлівна</h3>
-                <p>Кандидат физико-математических наук, доцент, зав. кафедри Програмного забезпечення комп’ютерних
-                  систем</p>
-              </Thumbnail>
+            <Col md={4} sm={6}>
+              <Photo person="alekseev_m" src={require("../images/photos/alekseev_m.jpg")}/>
             </Col>
-            <Col md={3} sm={6}>
-              <Thumbnail alt="УС Світлана Альбертівна" src={require("../images/photos/us.jpg")}>
-                <h3>УС Світлана Альбертівна</h3>
-                <p>Кандидат фізико-математичних наук, доцент, професор кафедри системного аналізу і управління</p>
-              </Thumbnail>
+            <Col md={4} sm={6}>
+              <Photo person="udovyk" src={require("../images/photos/udovyk.jpg")}/>
             </Col>
-            <Col md={3} sm={6}>
-              <Thumbnail alt="Чуріканова Олена Юріївна" src={require("../images/photos/churikanova.jpg")}>
-                <h3>Чуріканова Олена Юріївна</h3>
-                <p>к.е.н. доцент кафедри електронної економіки та економічної кібернетики</p>
-              </Thumbnail>
+            <Col md={4} sm={6}>
+              <Photo person="us" src={require("../images/photos/us.jpg")}/>
             </Col>
-            <Col md={3} sm={6}>
-              <Thumbnail alt="Коряшкина Лариса Сергіївна" src={require("../images/photos/koryaskina.jpg")}>
-                <h3>Коряшкина Лариса Сергіївна</h3>
-                <p>кандидат физико-математичних наук, доцент кафедри кафедри системного аналізу і управління</p>
-              </Thumbnail>
+          </Row>
+          <Row>
+            <Col md={4} sm={6}>
+              <Photo person="churikanova" src={require("../images/photos/churikanova.jpg")}/>
+            </Col>
+            <Col md={4} sm={6}>
+              <Photo person="alekseev_a" src={require("../images/photos/alekseev_a.jpg")}/>
+            </Col>
+            <Col md={4} sm={6}>
+              <Photo person="koryashkina" src={require("../images/photos/koryashkina.jpg")}/>
             </Col>
           </Row>
         </div>

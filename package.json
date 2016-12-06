@@ -1,8 +1,8 @@
 {
-  "name": "site",
-  "version": "0.0.17",
+  "name": "quaere",
+  "version": "0.0.18",
   "description": "site of quaere, erasmus+ project",
-  "repository": "/",
+  "repository": "https://github.com/inarm-16/quaere",
   "license": "MIT",
   "config": {
     "buildDir": "./build",
@@ -11,7 +11,7 @@
     "devPort": 8000
   },
   "scripts": {
-    "build": "NODE_ENV=production npm run webpack",
+    "build": "NODE_ENV=production UV_THREADPOOL_SIZE=100 npm run webpack",
     "clean": "rimraf $npm_package_config_buildDir && mkdir $npm_package_config_buildDir",
     "env": "env",
     "lint": "eslint --ext .js --ext .jsx ./app ./webpack && echo No linting errors.",
