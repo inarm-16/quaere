@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button, Glyphicon} from 'react-bootstrap';
-var Translate = require('react-i18nify').Translate;
+const Translate = require('react-i18nify').Translate;
 
 export default class DocumentLink extends React.Component {
 

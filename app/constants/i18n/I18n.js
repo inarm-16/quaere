@@ -1,68 +1,71 @@
-let I18n = require('react-i18nify').I18n;
-import GeneralInformation from './GeneralInformation';
-import UsefulLinks from './UsefulLinks';
-import Partners from './Partners';
-import WorkingGroup from './WorkingGroup';
+let I18n = require("react-i18nify").I18n;
+import GeneralInformation from "./GeneralInformation";
+import UsefulLinks from "./UsefulLinks";
+import Partners from "./Partners";
+import WorkingGroup from "./WorkingGroup";
+import NMUinProject from "./NMUinProject";
 
 I18n.setTranslations({
   ua: {
-    site_name: 'Система забезпечення якості освіти в Україні',
+    site_name: "Система забезпечення якості освіти в Україні",
     logos: {
       pzks: "Кафедра програмного забезпечення комп'ютерних систем",
-      nmu: 'Національний гірничий університет',
-      erasmus: 'Erasmus+',
-      quaere: 'QUAERE'
+      nmu: "Національний гірничий університет",
+      erasmus: "Erasmus+",
+      quaere: "QUAERE"
     },
     menu: {
-      general_information: 'Загальна інформація',
-      partners: 'Партнери проекту',
-      stages: 'Етапи виконання',
-      useful_links: 'Корисні посилання',
-      work_group: 'Склад робочої групи від НГУ',
-      nmu_in_project: 'НГУ в проекті'
+      general_information: "Загальна інформація",
+      partners: "Партнери проекту",
+      stages: "Етапи виконання",
+      useful_links: "Корисні посилання",
+      work_group: "Склад робочої групи від НГУ",
+      nmu_in_project: "НГУ в проекті"
     },
     pages: {
       generalInformation: GeneralInformation.ua,
       links: UsefulLinks.ua,
       partners: Partners.ua,
-      workingGroup: WorkingGroup.ua
+      workingGroup: WorkingGroup.ua,
+      nmuInProject: NMUinProject.ua
     }
   },
   en: {
-    site_name: 'The quality assurance system of education in Ukraine',
+    site_name: "The quality assurance system of education in Ukraine",
     logos: {
-      pzks: 'Department of Software Engineering',
-      nmu: 'National Mining University',
-      erasmus: 'Erasmus+',
-      quaere: 'QUAERE'
+      pzks: "Department of Software Engineering",
+      nmu: "National Mining University",
+      erasmus: "Erasmus+",
+      quaere: "QUAERE"
     },
     menu: {
-      general_information: 'General information',
-      partners: 'Project partners',
-      stages: 'Stages of implementation',
-      useful_links: 'Useful links',
-      work_group: 'Working group from NMU',
-      nmu_in_project: 'NMU in project'
+      general_information: "General information",
+      partners: "Project partners",
+      stages: "Stages of implementation",
+      useful_links: "Useful links",
+      work_group: "Working group from NMU",
+      nmu_in_project: "NMU in project"
     },
     pages: {
       generalInformation: GeneralInformation.en,
       links: UsefulLinks.en,
       partners: Partners.en,
-      workingGroup: WorkingGroup.en
+      workingGroup: WorkingGroup.en,
+      nmuInProject: NMUinProject.en
     }
   }
 });
 
-let language = '';
+let language = "";
 
 if (localStorage.userLanguage) {
   language = localStorage.userLanguage;
 } else {
   let defLanguage = navigator.language;
-  if (defLanguage === 'ua' || defLanguage === 'en')
+  if (defLanguage === "ua" || defLanguage === "en")
     language = defLanguage;
   else
-    language = 'ua';
+    language = "ua";
   localStorage.userLanguage = language;
 }
 
